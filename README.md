@@ -13,4 +13,9 @@ This repo contains v2 forms for all of Quotehound, tech stack is included. Using
 - Added all dependencies for Craco 
 - Added plugins for Form styling 
 
+# Commit 3 - v0.0.3 
+
+- Added Toastify 
+- Set Main landing
+
 # v2QHForms
