@@ -18,4 +18,10 @@ This repo contains v2 forms for all of Quotehound, tech stack is included. Using
 - Added Toastify 
 - Set Main landing
 
+# Commit 4 - v0.0.4
+
+- Configured the service worker JS file 
+- Updated App.js for Router
+- Updated Index.js for Router
+
 # v2QHForms

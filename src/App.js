@@ -1,25 +1,29 @@
-import logo from './logo.svg';
+
+// Import for libraries
+import React, {Component} from 'react';
+import { BrowserRouter as Router, Route, Switch, withRouter} from 'react-router-dom';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+//Import for pages
+import MainLanding from './components/mainPage/main'
+
+class App extends Component {
+
+
+  // Handle change Route
+  changeRoute = () => {
+    this.setState({
+      route: '',
+    });
+  };
+
+  render() {
+    return this.state.route === '/' && this.state.routes.indexOf(window.location.pathname) === -1 ? (<Route exact path='/' render={(props) => <MainLanding changeRoute={this.changeRoute} {...props} />} />) : (
+      <div> 
+        
+      </div>
+    )
+  }
 }
 
-export default App;
+export default withRouter(App)
