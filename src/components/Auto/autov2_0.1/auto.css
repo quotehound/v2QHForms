@@ -1,0 +1,35 @@
+
+
+.spanText {
+    font-weight: bold;
+}
+
+.zipInput {
+    border: 1px solid #cccc;
+    color: #488BFF;  
+    max-width: 200px; 
+}
+
+ .zipSubmit{ 
+     max-width: 200px;     
+ }
+
+
+
+@media (max-width: 758px){
+
+    .formSection {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .zipInput {
+        min-width: 100%;
+    }
+
+    .zipSubmit {
+        min-width: 100%;
+    }
+
+    
+}

@@ -7,6 +7,9 @@ import './App.css';
 //Import for pages
 import MainLanding from './components/mainPage/main'
 
+//Import For Auto Pages 
+import AutoLandingPage from './components/Auto/autov2_0.1/autoLanding.jsx'
+
 class App extends Component {
 
 
@@ -18,9 +21,9 @@ class App extends Component {
   };
 
   render() {
-    return this.state.route === '/' && this.state.routes.indexOf(window.location.pathname) === -1 ? (<Route exact path='/' render={(props) => <MainLanding changeRoute={this.changeRoute} {...props} />} />) : (
+    return (
       <div> 
-        
+        <AutoLandingPage />
       </div>
     )
   }

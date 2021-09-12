@@ -24,4 +24,18 @@ This repo contains v2 forms for all of Quotehound, tech stack is included. Using
 - Updated App.js for Router
 - Updated Index.js for Router
 
+# Commit 5 - v0.0.5 
+
+- New Auto Landing Page 
+- New Auto css file
+- Completed New Auto Landing Page Components 
+    - Header
+    - Start Of Form 
+---------------------------------------------------------------    
+## TODO
+- Change Header Image
+- Fix Mobile Nav to show Button instead of hamburger 
+- Implement Form Component to store data 
+- Start Routing for correct implementation
+
 # v2QHForms
