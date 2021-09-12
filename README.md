@@ -50,8 +50,20 @@ This repo contains v2 forms for all of Quotehound, tech stack is included. Using
 
 - updated footer text
 
+# Commit 8 - v0.0.8
+
+- Created Landing Page for home
+- Fixed Routes Issue for home page
+- Fixed routes issue for auto page
+- Fixed Routes bug that doesnt render back 
+- Fixed bug that didnt allow routes change 
+- Fixed bug that triggered route path not to be exact
+
 -------------------------------------------------------------
 # List for routes
+
+- Main Landing Page
+    - /
 
 - Auto landing page
     - /auto/landing

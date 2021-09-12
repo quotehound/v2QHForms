@@ -10,7 +10,7 @@ class AutoMain extends Component {
     // Set State 
 
     state = {
-        route: '/auto/auto-landing',
+        route: '/auto',
         routes: [''],
 
         // Set Post Data
@@ -22,25 +22,29 @@ class AutoMain extends Component {
 
     changeRoute = () => {
         this.setState({
-            route: '',
+            route: '/auto',
         });
     };
 
     render() {
-        return this.state.route == '/auto/landing' && this.state.routes.indexOf(window.location.pathname) === -1 ? (
-			<Route exact path='/auto/landing' render={(props) => <AutoLandingPage changeRoute={this.changeRoute} {...props} 
-            setZipCode={(v) =>{
-                this.setState({
-                    postData: {
-                        ...this.state.postData,
-                        zip_code: v,
-                    },
-                });
-            console.log('shit got updated')
-            }}
-            />} />
-		) : (
+        return  (
             <div> 
+                <Switch>
+                    <Route path='/auto'> 
+                        <AutoLandingPage
+                        setZipCode={(v) =>{
+                            this.setState({
+                                postData: {
+                                    ...this.state.postData,
+                                    zip_code: v,
+                                },
+                            });
+                        console.log('shit got updated')
+                        }}
+                        
+                        />
+                    </Route>
+                </Switch>
 
             </div>
         )

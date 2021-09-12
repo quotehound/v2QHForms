@@ -13,8 +13,6 @@ import 'react-toastify/dist/ReactToastify.min.css';
 import QHLogo from '../../../Images/QHLogo.png';
 import HeaderImage from '../../../Images/auto-hero.svg'
 
-
-
 class AutoLandingPage extends Component {
 
     constructor(props) {
@@ -59,7 +57,7 @@ class AutoLandingPage extends Component {
     autoFocusClick() {
       document.getElementById('zipCode').focus();
     }
-
+  
     render(){
         return(
 
