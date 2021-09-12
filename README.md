@@ -2,8 +2,6 @@
 
 This repo contains v2 forms for all of Quotehound, tech stack is included. Using React, Node.js, Typescript. 
 # Commit 1 -  v0.0.1 
-## Changes
-
 - Init for create react app 
 - Added Git Repo
 
@@ -31,11 +29,22 @@ This repo contains v2 forms for all of Quotehound, tech stack is included. Using
 - Completed New Auto Landing Page Components 
     - Header
     - Start Of Form 
----------------------------------------------------------------    
-## TODO
-- Change Header Image
-- Fix Mobile Nav to show Button instead of hamburger 
-- Implement Form Component to store data 
-- Start Routing for correct implementation
+
+# Commit 6 - v0.0.6 
+
+- Added Main file for auto for reading of states
+- Set routes components for main landing page
+- Toastify Integration Added
+- Fixed stlying issues for mobile + tablet
+- Fixed mobile nav bar for Button
+- Added new section on landing page 
+- Zip code passes with state 
+
+
+-------------------------------------------------------------
+# List for routes
+
+- Auto landing page
+    - /auto/landing
 
 # v2QHForms

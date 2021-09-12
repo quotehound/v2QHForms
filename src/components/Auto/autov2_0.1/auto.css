@@ -14,6 +14,9 @@
      max-width: 200px;     
  }
 
+ .logo {
+     width: 120px;
+ }
 
 
 @media (max-width: 758px){
@@ -29,6 +32,32 @@
 
     .zipSubmit {
         min-width: 100%;
+    }
+    .callButton {
+        max-width: 250px;
+        font-size: 12px;
+    }
+
+    
+}
+
+@media (max-width: 320px){
+
+    .formSection {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .zipInput {
+        min-width: 100%;
+    }
+
+    .zipSubmit {
+        min-width: 100%;
+    }
+    .callButton {
+        max-width: 200px;
+        font-size: 10px;
     }
 
     
