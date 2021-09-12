@@ -21,7 +21,7 @@ class HomeLanding extends Component {
                         <div className="max-w-4xl mx-auto text-center mb-24">
                             <span className="text-lg text-gray-200" data-config-id="label">Match. Save. Relax.</span>
                             <h2 className="mb-8 mt-2 text-5xl lg:text-6xl text-white font-bold font-heading" data-config-id="header">Free Yourself From Insurance Prices</h2>
-                            <a className="inline-block w-full lg:w-auto py-3 px-6 text-gray-50 font-semibold bg-blue-600 hover:bg-blue-500 hover:shadow-lg rounded transition duration-200" href="#" data-config-id="hero-primary-action">Get Your Free Quote</a>
+                            <a className="inline-block w-full lg:w-auto py-3 px-6 text-gray-50 font-semibold bg-blue-600 hover:bg-blue-500 hover:shadow-lg rounded transition duration-200" href="/auto" data-config-id="hero-primary-action">Get Your Free Quote</a>
                         </div>
                         <div className="flex flex-wrap -mx-4">
                             <div className="w-full sm:w-1/2 lg:w-1/3 flex px-4 mb-8">
@@ -54,25 +54,7 @@ class HomeLanding extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="hidden navbar-menu relative z-50">
-                        <div className="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25" />
-                        <nav className="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-white border-r overflow-y-auto">
-                            <div className="flex items-center mb-8">
-                                <a className="mr-auto text-2xl font-semibold leading-none" href="#" data-config-id="brand">
-                                    <img className="h-8" src="mockup-assets/logos/shuffle-ux.svg" alt="" width="auto" />
-                                </a>
-                                <button className="navbar-close">
-                                    <svg className="h-6 w-6 text-gray-400 cursor-pointer hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                                    </svg>
-                                </button>
-                            </div>
-
-                            <div className="mt-auto">
-                                <div className="pt-6"><a className="block px-6 py-2 mb-3 text-sm text-center text-gray-500 hover:text-gray-600 font-bold leading-loose border border-gray-100 hover:border-gray-200 rounded" href="#" data-config-id="secondary-action">Sign in</a><a className="block px-6 py-2 mb-2 text-sm text-center text-gray-500 hover:text-gray-600 font-bold leading-loose border border-gray-100 hover:border-gray-200 rounded" href="#" data-config-id="primary-action">Sign up</a></div>
-                            </div>
-                        </nav>
-                    </div>
+                    
                 </section>
                 {/* Header Section End */}
 
@@ -85,7 +67,7 @@ class HomeLanding extends Component {
                                 <span className="text-md text-blue-400 font-semibold" data-config-id="label">How does it work? </span>
                                 <h2 className="mt-8 mb-10  text-xl md:text-3xl mt-3 font-bold font-headingg" data-config-id="header">It's simple to start saving!</h2>
                                 <p className="max-w-lg mb-12 text-xl text-gray-500" data-config-id="desc">Learn how thousands of people how already saved over <span className="spanText">$300</span> on average!</p>
-                                <a className="inline-block px-8 py-4 text-sm text-white font-medium leading-normal bg-blue-500 hover:bg-blue-600 rounded transition duration-200">Start Your Free Quote!</a>
+                                <a className="inline-block px-8 py-4 text-sm text-white font-medium leading-normal bg-blue-500 hover:bg-blue-600 rounded transition duration-200" href="/auto">Start Your Free Quote!</a>
                             </div>
                             <div className="w-full lg:w-1/2 px-4">
                                 <div className="bg-gray-50 rounded-xl px-10">
@@ -178,19 +160,19 @@ class HomeLanding extends Component {
                     <h3 className="text-3xl mb-5 leading-tight font-semibold font-heading text-center" data-config-id="header">What we help you save on</h3>
                     <div className="flex flex-wrap -mx-8">
                         <div className="md:w-1/3 py-4 px-8 mb-4 md:mb-0">
-                            <h3 className="text-2xl font-semibold font-heading" data-config-id="col1-header">Great quality</h3>
-                            <p className="my-4 text-gray-400 leading-relaxed" data-config-id="col1-desc">Our paper is literally tempting you to print something. Even if you already have a paper supplier, we can change that!</p>
-                            <a className="text-indigo-600 hover:underline" href="#" data-config-id="col1-link">Learn more »</a>
+                            <h3 className="text-2xl font-semibold font-heading" data-config-id="col1-header">Auto Insurance</h3>
+                            <p className="my-4 text-gray-800 leading-relaxed" data-config-id="col1-desc">Save on the thing that takes you places. Users save on average <span className="spanText">$275</span></p>
+                            <a className="text-blue-600 hover:underline" href="/auto" data-config-id="col1-link">Get My Free Quote »</a>
                         </div>
                         <div className="md:w-1/3 py-4 px-8 mb-4 md:mb-0">
-                            <h3 className="text-2xl font-semibold font-heading" data-config-id="col2-header">Fast delivery</h3>
-                            <p className="my-4 text-gray-400 leading-relaxed" data-config-id="col2-desc">Business in need? We can prepare next-day delivery if necessary. The supplies will be delivered to your company every first Monday.</p>
-                            <a className="text-indigo-600 hover:underline" href="#" data-config-id="col2-link">Learn more »</a>
+                            <h3 className="text-2xl font-semibold font-heading" data-config-id="col1-header">Auto Insurance</h3>
+                            <p className="my-4 text-gray-800 leading-relaxed" data-config-id="col1-desc">Save on the thing that takes you places. Users save on average <span className="spanText">$275</span></p>
+                            <a className="text-blue-600 hover:underline" href="/auto" data-config-id="col1-link">Get My Free Quote »</a>
                         </div>
                         <div className="md:w-1/3 py-4 px-8 mb-4 md:mb-0">
-                            <h3 className="text-2xl font-semibold font-heading" data-config-id="col3-header">Attractive discounts</h3>
-                            <p className="my-4 text-gray-400 leading-relaxed" data-config-id="col3-desc">Every customer gets 10% discount on the other paper supplies. You never know, when we will launch something interesting.</p>
-                            <a className="text-indigo-600 hover:underline" href="#" data-config-id="col3-link">Learn more »</a>
+                            <h3 className="text-2xl font-semibold font-heading" data-config-id="col1-header">Auto Insurance</h3>
+                            <p className="my-4 text-gray-800 leading-relaxed" data-config-id="col1-desc">Save on the thing that takes you places. Users save on average <span className="spanText">$275</span></p>
+                            <a className="text-blue-600 hover:underline" href="/auto" data-config-id="col1-link">Get My Free Quote »</a>
                         </div>
                     </div>
                 </section>

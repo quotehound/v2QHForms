@@ -59,6 +59,10 @@ This repo contains v2 forms for all of Quotehound, tech stack is included. Using
 - Fixed bug that didnt allow routes change 
 - Fixed bug that triggered route path not to be exact
 
+# Commit 8.1 - v0.0.8-1
+
+- Added routes for auto in landing
+
 -------------------------------------------------------------
 # List for routes
 
