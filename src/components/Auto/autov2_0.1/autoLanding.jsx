@@ -212,7 +212,7 @@ class AutoLandingPage extends Component {
           </ul>
           <a className="inline-block mr-auto lg:mr-0 py-4 px-8 text-sm text-white font-medium leafing-normal bg-blue-500 hover:bg-blue-300 rounded" onClick={this.autoFocusClick} data-config-id="primary-action">Get Your Free Quote</a>
         </div>
-        <p className="mt-6 lg:hidden text-sm text-gray-500" data-config-id="copy">All rights reserved © Zeus Corporation 2021</p>
+        <p className="mt-6 lg:hidden text-sm text-gray-500" data-config-id="copy">All rights reserved © Quotehound 2021</p>
       </div>
     </div>
   </div>

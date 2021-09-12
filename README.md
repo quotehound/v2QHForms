@@ -46,6 +46,10 @@ This repo contains v2 forms for all of Quotehound, tech stack is included. Using
 - Added Footer
 - Completed all CTA
 
+# Commit 7.1 - v0.0.7-1
+
+- updated footer text
+
 -------------------------------------------------------------
 # List for routes
 
