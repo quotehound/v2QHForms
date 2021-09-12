@@ -40,6 +40,11 @@ This repo contains v2 forms for all of Quotehound, tech stack is included. Using
 - Added new section on landing page 
 - Zip code passes with state 
 
+# Commit 7 - v0.0.7 
+
+- Finished Landing Page
+- Added Footer
+- Completed all CTA
 
 -------------------------------------------------------------
 # List for routes

@@ -168,6 +168,58 @@ class AutoLandingPage extends Component {
 
 {/* End of how it works */}
 
+{/* CTA Section Start */}
+<section className="relative py-20  bg-gray-100">
+  <div className="relative container px-4 mx-auto">
+    <div className="flex flex-wrap items-center -mx-4">
+    <div className="relative w-full lg:w-1/2 px-4">
+        <img className="rounded-xl object-cover" src="https://images.unsplash.com/photo-1524508762098-fd966ffb6ef9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="" data-config-id="image" />
+      </div>
+      <div className="w-full lg:w-1/2 px-4 mb-10 lg:mb-0 ">
+        <div className="max-w-lg ">
+          <span className="text-lg text-blue-400 font-semibold" data-config-id="label">Start Saving On Your <span className="spanText">Auto Insurance</span></span>
+          <h2 className="mt-8 mb-6 lg:mb-10 lg:pr-8 text-4xl font-semibold" data-config-id="header">Saving at your finger tips...</h2>
+          <p className="text-md text-gray-500" data-config-id="desc">Car insurance is required in almost every U.S. state, but finding the right policy at a good price can be a challenge. If you're wondering which insurer provides the best rates or what type of coverage you need, the answers to these questions depend on a number of factors. <br/> Fortunately, there is <span className="spanText">Quotehound</span>. Just fill out our quick form and start saving hundreds!</p>
+          <a className="inline-block px-8 py-4 mt-5 text-sm text-white font-medium leading-normal bg-blue-500 hover:bg-blue-600 rounded transition duration-200" onClick={this.autoFocusClick}>Start Your Free Quote!</a>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <img className="hidden xl:block absolute top-0 right-0 mt-52" src="zeus-assets/icons/dots/yellow-dot-right-shield.svg" alt="" />
+</section>
+
+{/* CTA Section End */}
+
+
+{/* Footer  */}
+<section className="py-20">
+  <div className="container mx-auto px-4">
+    <div className="flex flex-wrap justify-between items-center -mx-4">
+      <div className="w-full lg:w-2/6 px-4">
+        <a className="inline-block mb-6 text-gray-900 text-lg font-semibold" href="#" data-config-id="brand">
+          <img className="h-7" src={QHLogo} alt="" width="auto" />
+        </a>
+        <p className="hidden lg:block text-sm text-gray-500" data-config-id="copy">All rights reserved © Quotehound 2021</p>
+      </div>
+      <div className="w-full lg:w-4/6 px-4">
+        <div className="flex flex-wrap items-center justify-end">
+          <ul className="w-full lg:w-auto inline-flex flex-wrap mb-4 lg:mb-0 md:mr-6 lg:mr-12">
+            <li className="mr-12 mb-2 md:mb-0"><a className="text-sm font-medium" href="#" data-config-id="01_link1">Do Not Sell</a></li>
+            <li className="mr-12 mb-2 md:mb-0"><a className="text-sm font-medium" href="#" data-config-id="01_link2">Privacy Policy</a></li>
+            <li className="mr-12 mb-2 md:mb-0"><a className="text-sm font-medium" href="#" data-config-id="01_link3">Terms & Conditions</a></li>
+          </ul>
+          <a className="inline-block mr-auto lg:mr-0 py-4 px-8 text-sm text-white font-medium leafing-normal bg-blue-500 hover:bg-blue-300 rounded" onClick={this.autoFocusClick} data-config-id="primary-action">Get Your Free Quote</a>
+        </div>
+        <p className="mt-6 lg:hidden text-sm text-gray-500" data-config-id="copy">All rights reserved © Zeus Corporation 2021</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{/* End Footer */}
+
 
 </div>
 
