@@ -5,20 +5,20 @@ import { BrowserRouter, BrowserRouter as Router, Route, Switch, withRouter} from
 import './App.css';
 
 //Import for pages
-import MainLanding from './components/mainPage/main'
+import MainLanding from './components/mainPage/main.jsx';
 
 //Import For Auto Pages 
 import AutoLandingPage from './components/Auto/autov2_0.1/autoLanding.jsx'
-
+import CarYear from './components/Auto/autov2_0.1/CarYear.jsx';
 class App extends Component {
 
   state = {
     route: '/',
     routes: [
         '/',
-
         //auto
-        '/auto'
+        '/auto',
+        '/auto/step1',
     ]
   }
 
@@ -36,7 +36,8 @@ class App extends Component {
       <div>
         <Switch>
           <Route path="/" component={MainLanding} exact />
-          <Route path="/auto" component={AutoLandingPage} />
+          <Route path="/auto" component={AutoLandingPage} exact/>
+          <Route path='/auto/step1' component={CarYear} exact />
           
         </Switch>
       </div>

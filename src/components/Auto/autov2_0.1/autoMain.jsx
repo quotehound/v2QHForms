@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch, withRouter } from 'react-router
 
 
 import AutoLandingPage from './autoLanding';
-
+import CarYear from './CarYear';
 
 class AutoMain extends Component {
 
@@ -11,7 +11,7 @@ class AutoMain extends Component {
 
     state = {
         route: '/auto',
-        routes: [''],
+        routes: ['/auto/step1'],
 
         // Set Post Data
         postData: {
@@ -30,7 +30,7 @@ class AutoMain extends Component {
         return  (
             <div> 
                 <Switch>
-                    <Route path='/auto'> 
+                    <Route exact path='/auto'> 
                         <AutoLandingPage
                         setZipCode={(v) =>{
                             this.setState({
@@ -43,6 +43,10 @@ class AutoMain extends Component {
                         }}
                         
                         />
+                    </Route>
+
+                    <Route path='/auto/step1'>
+                        <CarYear />
                     </Route>
                 </Switch>
 
