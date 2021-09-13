@@ -11,5 +11,5 @@
      plugins: [
       require('@tailwindcss/forms')
      ],
-   }
+   };
  

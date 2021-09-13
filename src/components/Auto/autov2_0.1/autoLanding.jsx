@@ -49,7 +49,7 @@ class AutoLandingPage extends Component {
 
         console.log("updated props with value: ", zipValue);
 
-        this.props.history.push("/auto/step2");
+        this.props.history.push("/auto/step1?zip_code=" + zipValue);
       }
         
     }
@@ -66,7 +66,7 @@ class AutoLandingPage extends Component {
             {/* Header with Form */}
 
             <section className="pb-20 bg-gray-50">
-  <nav className="flex justify-between items-center py-8 px-4 xl:px-10">
+  <nav className="flex justify-between  items-center py-8 px-4 xl:px-10">
     <a className="text-lg font-semibold" data-config-id="brand">
       <img className=" logo" src={QHLogo} alt="" />
     </a>

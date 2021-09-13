@@ -63,6 +63,14 @@ This repo contains v2 forms for all of Quotehound, tech stack is included. Using
 
 - Added routes for auto in landing
 
+# Commit 9 - v0.0.9
+
+- Added Step 1 on form
+- Added Car API Custom Made for QH 
+- FIxed bug for route change for exact match 
+- fixed style issues for mobile
+
+
 -------------------------------------------------------------
 # List for routes
 
